@@ -31,9 +31,11 @@ def Demand_Calibration_GPU(inpfile,inputdata,resultInp,NumIters,Step):
 
 
 start=time.clock()
-[Demand,Demand_Var]=Demand_Calibration_GPU('case 1_sim.inp', 'Bayesian.obs', 'result_Bayesian.inp',25, 0.25)
+for i in range(20):
+    [Demand,Demand_Var]=Demand_Calibration_GPU('case 1_sim.inp', 'Bayesian.obs', 'result_Bayesian.inp',25, 0.25)
+    print(str(i)+'  over')
 end= time.clock()
-print('\n\nTime consumption: '+str((end-start)*1000))
+print('\n\nTime consumption: '+str((end-start)*1000/20)+'ms')
 pd.DataFrame(Demand).to_csv('Demand.csv')
 pd.DataFrame(Demand_Var).to_csv('demandVar.csv')
 

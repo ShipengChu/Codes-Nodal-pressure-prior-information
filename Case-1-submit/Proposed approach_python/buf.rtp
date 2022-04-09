@@ -1,4 +1,4 @@
-  Page 1                                    Sat Mar 26 18:23:55 2022
+  Page 1                                    Sat Apr  9 15:46:36 2022
 
   ******************************************************************
   *                           E P A N E T                          *
@@ -7,7 +7,7 @@
   *                         Version 2.00.12                        *
   ******************************************************************
   
-  Analysis begun Sat Mar 26 18:23:55 2022
+  Analysis begun Sat Apr  9 15:46:36 2022
 
    
   Hydraulic Status:
@@ -768,12 +768,6 @@
    
   Hydraulic Status:
   -----------------------------------------------------------------------
-     0:00:00: Balanced after 2 trials
-     0:00:00: Reservoir N9 is emptying
-   
-   
-  Hydraulic Status:
-  -----------------------------------------------------------------------
      0:00:00: Balanced after 1 trials
      0:00:00: Reservoir N9 is emptying
    
@@ -813,4 +807,10 @@
      0:00:00: Balanced after 1 trials
      0:00:00: Reservoir N9 is emptying
    
-  Analysis ended Sat Mar 26 18:23:57 2022
+   
+  Hydraulic Status:
+  -----------------------------------------------------------------------
+     0:00:00: Balanced after 1 trials
+     0:00:00: Reservoir N9 is emptying
+   
+  Analysis ended Sat Apr  9 15:46:36 2022
